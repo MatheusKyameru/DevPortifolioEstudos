@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray-100:#E2E4E9;
+    --gray-200:#C0C4CE;
+    --gray-300:#878EA1;
+    --gray-400:#292C34;
+    --font-family: "Asap", sans-serif;
+    --font-family2: "Inconsolata", monospace;
+    --font-family3:"Maven Pro", sans-serif;
+    --text-lg:700 56px/120%  var(--font-family);
+
+    --text-sm:400 14px/140% var(--font-family3);
+    --text-md:400 16px/140% var(--font-family3);
+
+    --subtitle:400 20px/120% var(--font-family2);
+    }
