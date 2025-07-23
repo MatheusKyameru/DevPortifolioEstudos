@@ -1,0 +1,50 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0D0E11;
+    padding-bottom: 120px;
+
+     span{
+        margin-top: 72px;
+        color: #E3646E;
+        font: var(--subtitle);
+    }
+
+    h2{
+        font: var(--title-md);
+        color: var(--gray-100); 
+        margin-bottom: 56px;
+    }
+
+    h3{
+        font: var(--title-sm);
+        color: var(--gray-100);
+        margin-bottom: 8px; 
+    }
+    
+}
+
+#servicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.opcoes{
+    width: 280px;
+    border: solid 1px #16181D;
+    padding: 20px;
+    border-radius: 8px;
+
+     p{
+        font: var(--text-sm);
+        color: var(--gray-200);
+        
+    }
+
+    img{
+        margin-bottom: 20px;
+       
+    }
+}

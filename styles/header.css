@@ -1,16 +1,16 @@
 header{
-    height: 750px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-  
+    padding-bottom: 57px;
     background-image: url(/midia/Background_Intro.png);
     background-size: cover;
 
     h1{
-        font: var(--text-lg);
+        font: var(--title-lg);
         color: var(--gray-100);
         margin-bottom: 20px;
     }
@@ -21,6 +21,9 @@ header{
         margin-bottom: 8px;
     }
 
+    span{
+        color: #E3646E;
+    }
   
 }
 
@@ -29,6 +32,7 @@ header{
     height: 96px;
     object-fit: cover;
     margin-bottom: 56px;
+    margin-top: 126px;
 }
 
 #subtitle{
@@ -58,5 +62,7 @@ header{
 
     font: var(--text-md);
     color: var(--gray-200);
+
+    
 }
 

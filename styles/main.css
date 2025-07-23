@@ -1,0 +1,53 @@
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16181D;
+    padding: 0 163px;
+
+    span{
+        margin-top: 72px;
+        color: #E3646E;
+        font: var(--subtitle);
+    }
+
+    h2{
+        font: var(--title-md);
+        color: var(--gray-100);
+        margin-top: 8px;
+        margin-bottom: 56px;
+    }
+}
+
+#colecao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    row-gap: 24px;
+    margin-bottom: 144px;
+}
+
+.projetos{
+
+    padding: 12px;
+    
+    img{
+      width: 306px; 
+      border-radius: 8px; 
+    }
+    
+    h3{
+        font: var(--title-sm);
+        color: var(--gray-100);
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+
+    p{
+        font: var(--text-sm);
+        color: var(--gray-200);
+        
+    }
+}
+
