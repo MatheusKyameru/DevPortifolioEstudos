@@ -29,9 +29,9 @@ main{
 }
 
 .projetos{
-
+    border: solid 1px transparent;
     padding: 12px;
-    
+    width: 330px;
     img{
       width: 306px; 
       border-radius: 8px; 
@@ -49,5 +49,10 @@ main{
         color: var(--gray-200);
         
     }
+}
+
+.projetos:hover {
+    border: solid 1px var(--gray-300);
+    border-radius: 8px;
 }
 
